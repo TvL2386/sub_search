@@ -2,7 +2,7 @@
 
 ## What is SubSearch?
 
-*SubSearch* is a tool that watches a directory for incoming video files (tvshows).
+*SubSearch* is a tool that watches a directory for incoming video files (tvshows) and downloads subtitles for them.
 
 When a file arrives, SubSearch will see that because it watches for inotify events. Therefor this only works on linux for now.
 
