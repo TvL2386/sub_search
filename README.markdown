@@ -16,6 +16,10 @@ When a file appears in the directory you're watching, the following will happen:
 
 3) It will download and extract the remaining subtitles to the directory you're watching
 
+## Demo
+
+My first screencast on youtube: [http://www.youtube.com/watch?v=8bTfcZ0t4Z0]
+
 ## Why was this made?
 
 This program was made, because this will save me a lot of time in the future :-)
