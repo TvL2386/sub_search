@@ -3,26 +3,38 @@
 ## What is SubSearch?
 
 *SubSearch* is a tool that watches a directory for incoming video files (tvshows).
+
 When a file arrives, SubSearch will see that because it watches for inotify events. Therefor this only works on linux for now.
 
 ## How does it work?
+
 When a file appears in the directory you're watching, the following will happen:
+
 1) It will try to parse the filename to: title, seasonnumber and episodenumber.
+
 2) It will search podnapisi for English subtitles (skipping those for the hearing impared)
+
 3) It will download and extract the remaining subtitles to the directory you're watching
 
 ## Why was this made?
+
 This program was made, because this will save me a lot of time in the future :-)
 
 I know it is not very well written. If you want to refacter, be my guest and send a merge request.
 
 ## How to install?
+
 1) Download the sources
-2) Modify the path variable in sub_search.rb
-3) Modify the shell script to your needs in order to start sub_search
+
+2) bundle install
+
+3) Modify the path variable in sub_search.rb
+
+4) Modify the shell script to your needs in order to start sub_search
 
 ## Starting at boottime
 In order to make SubSearch start at boot, I've choosen to do it through the crontab and using screen.
+
 I had to create a shell script in order to bootstrap rvm.
 
 ``` bash
@@ -34,6 +46,8 @@ tom@pollux ~ $ crontab -l
 ```
 
 ## Notes
+The program has been created on ruby-1.9.3p125.
+
 I hope you like this!
 
 Regards,
