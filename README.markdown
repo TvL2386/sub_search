@@ -18,7 +18,7 @@ When a file appears in the directory you're watching, the following will happen:
 
 ## Demo
 
-My first screencast on youtube: [http://www.youtube.com/watch?v=8bTfcZ0t4Z0]
+My first screencast on youtube: http://www.youtube.com/watch?v=8bTfcZ0t4Z0
 
 ## Why was this made?
 
