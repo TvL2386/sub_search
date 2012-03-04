@@ -48,6 +48,11 @@ tom@pollux ~ $ crontab -l
 # (Cron version V5.0 -- $Id: crontab.c,v 1.12 2004/01/23 18:56:42 vixie Exp $)
 @reboot (cd ~/sub_search && screen -S sub_search -d -m ./sub_search.sh)
 ```
+## License
+
+SubSearch is released under the MIT license:
+
+* http://www.opensource.org/licenses/MIT
 
 ## Notes
 The program has been created on ruby-1.9.3p125.
